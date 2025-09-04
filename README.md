@@ -23,7 +23,6 @@ Shifter is a **multi-purpose security and educational toolkit** that provides va
 
 ## 🚀 Installation & Usage
 
-### 1. Clone the repository
 ```bash
 git clone https://github.com/SabriAmir/shifter-tool.git
 cd shifter-tool
