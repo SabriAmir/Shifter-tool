@@ -25,5 +25,8 @@ Shifter is a **multi-purpose security and educational toolkit** that provides va
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/USERNAME/shifter-tool.git
+git clone https://github.com/SabriAmir/shifter-tool.git
 cd shifter-tool
+pip install -r requirements.txt
+python3 main.py
+
