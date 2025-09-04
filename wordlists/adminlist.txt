@@ -1,0 +1,16 @@
+admin/
+administrator/
+admin/login.php
+admin/index.php
+cpanel/
+controlpanel/
+wp-admin/
+wp-login.php
+login/
+user/login/
+dashboard/
+adminpanel/
+admin_area/
+manage/
+system/
+backend/
