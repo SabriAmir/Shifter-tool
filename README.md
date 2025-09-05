@@ -1,27 +1,50 @@
-# 🔥 Shifter Tool
+# 🔥 Shifter Toolkit
 
-Shifter is a **multi-purpose security and educational toolkit** that provides various features such as Hash Cracking, Admin Finder, FTP Brute Force, Password Cracker, and integrations with powerful tools like **Nmap**, **SQLMap**, and **Metasploit**.  
+A powerful **Python-based security toolkit** that combines multiple tools into one interface.  
+It includes system information, password cracking, FTP brute force, SQLMap, Nmap, Metasploit, and more.  
 
-⚠️ **Disclaimer:** This tool is built for **educational and ethical testing only**. Any misuse is the sole responsibility of the user.  
-
----
-
-## 📌 Features
-- Show system information
-- Open command shell
-- Build and crack MD5/SHA1 hashes
-- Crack RAR files
-- FTP brute force
-- Simple password cracker
-- Admin finder for websites
-- Integration with external tools:
-  - [Metasploit](https://github.com/rapid7/metasploit-framework)
-  - [SQLMap](https://github.com/sqlmapproject/sqlmap)
-  - [Nmap](https://github.com/nmap/nmap)
+> ⚡ Educational purpose only. Use it responsibly.
 
 ---
 
-## 🚀 Installation & Usage
+## ✨ Features
+- 📊 System Info
+- 📂 RAR Cracker
+- 🔑 Hash Cracker
+- 🔐 Hash Builder (MD5)
+- 🌐 FTP Cracker
+- 🕵️ Admin Finder
+- 💻 Open Shell
+- 🎯 Metasploit Launcher
+- 🔓 Password Cracker
+- 💉 SQLMap Integration
+- 📡 Nmap Scanner
+- 🚀 KillCast
+- 📖 Help Menu
+- 👤 About
+
+---
+
+## ⚠️ Warning
+
+This tool is created **for educational and research purposes only**.  
+- ❌ Do not use it on systems you don’t own or don’t have explicit permission to test.  
+- ⚖️ Unauthorized usage may be **illegal** and could lead to severe consequences.  
+- ✅ Use it in **labs, CTFs, or penetration testing environments** where you have permission.  
+
+By using this tool, you agree that the author has **no responsibility** for any misuse.
+
+---
+
+## 📸 Screenshots
+
+### Main Menu
+![Main Menu](screenshots/main-menu.png)
+![Main Menu](screenshots/main-menu2.png)
+
+---
+
+## ⚙️ Installation
 
 ```bash
 git clone https://github.com/SabriAmir/shifter-tool.git
