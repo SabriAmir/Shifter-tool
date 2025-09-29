@@ -40,7 +40,6 @@ By using this tool, you agree that the author has **no responsibility** for any 
 
 ### Main Menu
 ![Main Menu](screenshots/main-menu.png)
-![Main Menu](screenshots/main-menu2.png)
 
 ---
 
