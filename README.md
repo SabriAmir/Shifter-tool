@@ -19,7 +19,7 @@ It includes system information, password cracking, FTP brute force, SQLMap, Nmap
 - 🔓 Password Cracker
 - 💉 SQLMap Integration
 - 📡 Nmap Scanner
-- 🚀 KillCast
+- 🚀 Network tool
 - 📖 Help Menu
 - 👤 About
 
