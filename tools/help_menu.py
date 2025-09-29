@@ -16,7 +16,7 @@ def run():
 [9] Password Cracker
 [10] SQLMap
 [11] Nmap
-[12] KillCast
+[12] Network toolkit
 [13] Help Menu
 [14] About
 [0] Exit

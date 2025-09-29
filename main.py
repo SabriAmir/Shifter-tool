@@ -3,6 +3,8 @@ from colorama import Fore
 from rich.table import Table
 from rich.align import Align
 from rich.panel import Panel
+import platform
+import os
 import tools.sys_info as sys_info
 import tools.rar_cracker as rar_cracker
 import tools.hash_cracker as hash_cracker
@@ -14,42 +16,26 @@ import tools.metasploit as metasploit
 import tools.pass_cracker as pass_cracker
 import tools.sqlmap as sqlmap
 import tools.nmap_tool as nmap_tool
-import tools.killcast as killcast
 import tools.help_menu as help_menu
 import tools.about as about
+import tools.networktool as networktool
+
+def clear_terminal():
+    if platform.system() == "Windows":
+        os.system("cls")
+    else:
+        os.system("clear")
 
 console = Console()
 
-ban = console.print(r'''
-                                              .
-                                              .
+# پاک‌سازی ترمینال قبل از نمایش بنر
+clear_terminal()
 
-                                             .
-                                            (
-
-                                             `
-                           _..---""""-...     )
-                       .--'              `   .`
-                   ._.'     .   .      .-.   (
-                  / -     .       .    `-   (   .      .=.
-                  )`     .                  '    `   _'(88\
-                 '      .--.       .   \___   )  _.-'  :888|
-                '      |  . |     .   _/   \__.-'8'  -' \88:
-               |       `.__.'.  .       ( __('8  8.   _.-`='
-               '                      \__/  x.8. `8.-'     ↑ Shifter
-              |        :           ..'     / `-Px'  '
-              `        `:.                 | - \ `- :
-               `      _                  _/  __/    '
-               `     ( )-             .'     \    ./ 
-                .     .                         .' :
-                 .                             .  .
-                                       __.    .  .
-                   )                 ,' _-'   ..'
-                   `^.-.    .- .      -'   _.'
-                        `Sabri_   `    ___.-'
-                            ""--"--""
-''')
-
+console.print("[green]███████ ██   ██ ████████[/green] [yellow]| Launching : Shifter Toolkit[/yellow]")
+console.print("[green]██      ██   ██    ██   [/green] [yellow]| Version   : 2.0.0[/yellow]")
+console.print("[green]███████ ███████    ██   [/green] [yellow]| Author    : AmirHosein Sabri[/yellow]")
+console.print("[green]     ██ ██   ██    ██   [/green] [yellow]| Repo      : github.com/SabriAmir/Shifter-tool[/yellow]")
+console.print("[green]███████ ██   ██    ██   [/green] [yellow]| Codename  : Shifter Toolkit[/yellow]")
 
 def menu():
     table = Table(title="[bold cyan]Shifter Toolkit[/]")
@@ -67,7 +53,7 @@ def menu():
     table.add_row("9", "Password Cracker")
     table.add_row("10", "SQLMap")
     table.add_row("11", "Nmap")
-    table.add_row("12", "KillCast")
+    table.add_row("12", "Network-tools")
     table.add_row("13", "Help Menu")
     table.add_row("14", "About")
     table.add_row("0", "Exit")
@@ -92,7 +78,7 @@ def main():
         elif choice == "9": pass_cracker.run()
         elif choice == "10": sqlmap.run()
         elif choice == "11": nmap_tool.run()
-        elif choice == "12": killcast.run()
+        elif choice == "12": networktool.run()
         elif choice == "13": help_menu.run()
         elif choice == "14": about.run()
         elif choice == "0":
