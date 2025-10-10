@@ -50,4 +50,7 @@ git clone https://github.com/SabriAmir/shifter-tool.git
 cd shifter-tool
 pip install -r requirements.txt
 python3 main.py
+```
+i add new tools for shifter soon 
+
 
